@@ -1,20 +1,10 @@
-package q01_basic.question04;
+package q01_basic.question06;
 
-class Member {
-	//TODO ここから実装する
-	private String name;
+public class Member extends AbstMember {
 	private int age;
 	private int rank;
 	private String password;
 	private int id;
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public int getAge() {
 		return age;
@@ -58,6 +48,11 @@ class Member {
 		this.name = name;
 		this.age = age;
 		this.rank = rank;
+	}
+
+	public void buyItem() {
+		System.out.println("input id >>" + id);
+		System.out.println("input password >>" + password);
 	}
 
 	public void showMember() {
