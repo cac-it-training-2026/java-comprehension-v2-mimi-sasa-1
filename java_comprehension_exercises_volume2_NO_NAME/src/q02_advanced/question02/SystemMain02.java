@@ -18,7 +18,7 @@ public class SystemMain02 {
 		members.add(member2);
 		MemberManager.showAllMembers(members);
 
-		System.out.println("===パスワードを変更します===");
+		System.out.println("=== パスワードを変更します ===");
 		int targetId;
 		String newpass;
 
